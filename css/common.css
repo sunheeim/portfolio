@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Pretendard";
+  src: url("../font/Pretendard/Pretendard-SemiBold.eot");
+  src: url("../font/Pretendard/Pretendard-SemiBold.eot?#iefix") format("embedded-opentype"), url("../font/Pretendard/Pretendard-SemiBold.woff2") format("woff2"), url("../font/Pretendard/Pretendard-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../font/Pretendard/Pretendard-Regular.eot");
+  src: url("../font/Pretendard/Pretendard-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Pretendard/Pretendard-Regular.woff2") format("woff2"), url("../font/Pretendard/Pretendard-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../font/Pretendard/Pretendard-Bold.eot");
+  src: url("../font/Pretendard/Pretendard-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Pretendard/Pretendard-Bold.woff2") format("woff2"), url("../font/Pretendard/Pretendard-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aviak";
+  src: url("../font/Aviak/AviakRegular.eot");
+  src: url("../font/Aviak/AviakRegular.eot?#iefix") format("embedded-opentype"), url("../font/Aviak/AviakRegular.woff2") format("woff2"), url("../font/Aviak/AviakRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-en: "Aviak";
+  --font-kr: "Pretendard";
+  --color-black: #333;
+  --color-white: #fff;
+  --color-point: #617153;
+  --max-width: 1720px;
+  --responsive-width: calc(100% - 40px);
+  --titleSize--pc-main: 40rem;
+  --titleSize--pc-sub: 12rem;
+}/*# sourceMappingURL=common.css.map */

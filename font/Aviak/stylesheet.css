@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Aviak';
+    src: url('AviakRegular.eot');
+    src: url('AviakRegular.eot?#iefix') format('embedded-opentype'),
+        url('AviakRegular.woff2') format('woff2'),
+        url('AviakRegular.woff') format('woff'),
+        url('AviakRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
