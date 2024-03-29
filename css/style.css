@@ -123,6 +123,7 @@
 .marquee .marquee-cont {
   white-space: nowrap;
   animation: marquee 20s linear infinite;
+  padding-bottom: 3px;
 }
 
 @keyframes marquee {
@@ -292,7 +293,7 @@
   align-items: center;
 }
 .portfolio .single_mockup .inner {
-  padding: 0 145px;
+  padding: 0 14.5rem;
 }
 .portfolio img {
   width: 100%;
@@ -374,6 +375,59 @@
 .Responsive h3 {
   margin: 25px 0;
 }
+.Responsive .item01 .btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Responsive .item01 .btn .cont {
+  width: calc(70% - 20px);
+}
+.Responsive .item01 .btn .mobile_QR {
+  width: 30%;
+  height: 100%;
+}
+.Responsive .item01 .btn .mobile_QR img {
+  border: var(--color-point) solid 1px;
+  border-radius: 5px;
+}
+.Responsive .item01 .btn .mobile_QR p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.Responsive .item02 .box .cont {
+  display: flex;
+  justify-content: space-between;
+}
+.Responsive .item02 .box .cont .btn {
+  width: calc(70% - 20px);
+}
+.Responsive .item02 .box .cont .mobile_QR {
+  width: 30%;
+  height: 100%;
+}
+.Responsive .item02 .box .cont .mobile_QR img {
+  border: var(--color-point) solid 1px;
+  border-radius: 5px;
+}
+.Responsive .item02 .box .cont .mobile_QR p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.Responsive .mockup,
+.onlydesign .mockup {
+  width: 65.87%;
+  height: 38.25vw;
+}
+.Responsive .mockup figure,
+.onlydesign .mockup figure {
+  width: 100%;
+  height: 100% img;
+  height-width: 100%;
+  height-height: 100%;
+  height-object-fit: cover;
+}
 
 /* --Graphic -- */
 .Graphic {
@@ -446,12 +500,56 @@
   background-color: var(--color-point);
 }
 
-/* --context-- */
-.contect {
+.mobile_web .item01 .box .cont {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile_web .item01 .box .cont .btn {
+  width: calc(65% - 20px);
+}
+.mobile_web .item01 .box .cont .mobile_QR {
+  width: 35%;
+  height: 100%;
+}
+.mobile_web .item01 .box .cont .mobile_QR img {
+  border: var(--color-point) solid 1px;
+  border-radius: 5px;
+}
+.mobile_web .item01 .box .cont .mobile_QR p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.mobile_web .item02 .box .cont {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile_web .item02 .box .cont .btn {
+  width: calc(65% - 20px);
+}
+.mobile_web .item02 .box .cont .mobile_QR {
+  width: 35%;
+  height: 100%;
+}
+.mobile_web .item02 .box .cont .mobile_QR img {
+  border: var(--color-point) solid 1px;
+  border-radius: 5px;
+}
+.mobile_web .item02 .box .cont .mobile_QR p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* -- undermarquee -- */
+.undermarquee .marquee .marquee-cont {
+  padding-bottom: 3px;
+}
+
+/* --contact-- */
+.contact {
   height: 750px;
   position: relative;
 }
-.contect .call {
+.contact .call {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -462,11 +560,11 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-.contect .call div h2 {
+.contact .call div h2 {
   font-weight: bold;
   margin-bottom: 5px;
 }
-.contect .footer {
+.contact .footer {
   font-size: 1.6rem;
   text-align: center;
   position: absolute;
@@ -474,6 +572,45 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-.contect .footer p {
+.contact .footer p {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1650px) {
+  html,
+  body {
+    font-size: 56.25%;
+  }
+  .portfolio .item01 {
+    gap: 3rem;
+  }
+  .portfolio .item02 {
+    gap: 3rem;
+  }
+  .portfolio h1 {
+    height: 3.8vw;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .portfolio .single_mockup .inner {
+    padding: 0 7.5rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  html,
+  body {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  html,
+  body {
+    font-size: 43.75%;
+  }
+}
+@media screen and (max-width: 960px) {
+  html,
+  body {
+    font-size: 37.5%;
+  }
 }/*# sourceMappingURL=style.css.map */
