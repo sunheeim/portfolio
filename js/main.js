@@ -95,6 +95,31 @@ $(function () {
         dots: true,
         autoplay: true,
         autoplaySpeed: 2000,
+
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                centerPadding: '50px',
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 960,
+              settings: {
+                centerPadding: '0',
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+
+          ]
     });
 
 
@@ -102,6 +127,24 @@ $(function () {
 
     Fancybox.bind("[data-fancybox]", {
 
+    });
+
+    /* 767px 이하 메뉴바 */
+    let menuBtn = document.getElementsByClassName('menu_open')[0];
+    let mobMenu = document.getElementsByClassName('mob_gnb')[0];
+    let closeBtn = document.getElementsByClassName('menu_close')[0];
+
+    menuBtn.addEventListener('click', () => {
+        if(getComputedStyle(mobMenu).display === 'none') {
+            mobMenu.style.display = 'block';
+        } else {
+            mobMenu.style.display = 'none';
+        }
+    });
+    closeBtn.addEventListener('click', () => {
+        if(getComputedStyle(mobMenu).display === 'block') {
+            mobMenu.style.display = 'none';
+        }
     });
 
 
