@@ -112,12 +112,19 @@ $(function () {
               }
             },
             {
-              breakpoint: 480,
+              breakpoint: 520,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                centerPadding: '90px',
               }
-            }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                  slidesToShow: 1,
+                  centerPadding: '30px',
+                }
+              }
 
           ]
     });
