@@ -22,6 +22,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  align-items: center;
 }
 .main_visual .header figure {
   width: 7rem;
@@ -598,6 +599,17 @@
 .contact .inner .call div h2 {
   font-weight: bold;
   margin-bottom: 5px;
+}
+.contact .inner .resuembtn {
+  text-align: center;
+  width: 318px;
+  background-color: var(--color-point);
+  margin: 10px auto;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: var(--font-en);
 }
 .contact .inner .footer {
   font-size: 1.6rem;
@@ -1188,6 +1200,10 @@
   }
   .Graphic .slickslide .slider .slide {
     height: 47rem;
+  }
+  .contact .inner .resuembtn {
+    width: 55%;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 360px) {

@@ -25,6 +25,7 @@
         display: flex;
         justify-content: space-between;
         padding-top: 30px;
+        align-items: center;
 
         figure {
             width: 7rem;
@@ -768,6 +769,18 @@
                     margin-bottom: 5px;
                 }
             }
+        }
+
+        .resuembtn {
+            text-align: center;
+            width: 318px;
+            background-color: var(--color-point);
+            margin: 10px auto;
+            padding: 10px 0;
+            border-radius: 10px;
+            color: white;
+            font-size: 25px;
+            font-family: var(--font-en);
         }
 
         .footer {
@@ -1717,6 +1730,14 @@
 
     .Graphic .slickslide .slider .slide {
         height: 47rem;
+    }
+    .contact {
+        .inner {
+            .resuembtn {
+                width: 55%;
+                font-size: 20px;
+            }
+        }
     }
 }
 
