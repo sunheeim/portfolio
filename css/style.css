@@ -9,7 +9,7 @@
 }
 
 #wrap {
-  background: url(../img/BG.png) center/100% no-repeat;
+  background: url(../img/BG.png) center/100%;
   background-attachment: fixed;
 }
 
@@ -448,6 +448,11 @@
 .onlydesign .item02 .item02_web {
   width: 60.23%;
   height: 40.51vw;
+}
+.onlydesign .btn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .Adaptive .mockup,
@@ -932,48 +937,75 @@
     margin-bottom: 0;
     line-height: 30px;
   }
-  .portfolio .item01, .portfolio .item02 {
+  .portfolio .item01,
+  .portfolio .item02 {
     justify-content: center;
     flex-direction: column;
     width: 100%;
   }
-  .portfolio .Responsive .item01 .box, .portfolio .Responsive .item02 .box, .portfolio .mobile_web .item01 .box, .portfolio .mobile_web .item02 .box {
+  .portfolio .Responsive .item01 .box,
+  .portfolio .Responsive .item02 .box,
+  .portfolio .mobile_web .item01 .box,
+  .portfolio .mobile_web .item02 .box {
     width: 80%;
   }
-  .portfolio .Responsive .item01 .box .cont .mobile_QR, .portfolio .Responsive .item02 .box .cont .mobile_QR, .portfolio .mobile_web .item01 .box .cont .mobile_QR, .portfolio .mobile_web .item02 .box .cont .mobile_QR {
+  .portfolio .Responsive .item01 .box .cont .mobile_QR,
+  .portfolio .Responsive .item02 .box .cont .mobile_QR,
+  .portfolio .mobile_web .item01 .box .cont .mobile_QR,
+  .portfolio .mobile_web .item02 .box .cont .mobile_QR {
     width: 50px;
     height: 50px;
   }
-  .portfolio .Responsive .item01 .box .cont .btn, .portfolio .Responsive .item02 .box .cont .btn, .portfolio .mobile_web .item01 .box .cont .btn, .portfolio .mobile_web .item02 .box .cont .btn {
+  .portfolio .Responsive .item01 .box .cont .btn,
+  .portfolio .Responsive .item02 .box .cont .btn,
+  .portfolio .mobile_web .item01 .box .cont .btn,
+  .portfolio .mobile_web .item02 .box .cont .btn {
     width: calc(70% - 5px);
     align-items: center;
   }
-  .portfolio .Responsive .item01 .box .cont .btn .mobile_QR, .portfolio .Responsive .item02 .box .cont .btn .mobile_QR, .portfolio .mobile_web .item01 .box .cont .btn .mobile_QR, .portfolio .mobile_web .item02 .box .cont .btn .mobile_QR {
+  .portfolio .Responsive .item01 .box .cont .btn .mobile_QR,
+  .portfolio .Responsive .item02 .box .cont .btn .mobile_QR,
+  .portfolio .mobile_web .item01 .box .cont .btn .mobile_QR,
+  .portfolio .mobile_web .item02 .box .cont .btn .mobile_QR {
     width: 50px;
     height: 50px;
   }
-  .portfolio .Responsive .item01 .box .three_btn .first, .portfolio .Responsive .item02 .box .three_btn .first, .portfolio .mobile_web .item01 .box .three_btn .first, .portfolio .mobile_web .item02 .box .three_btn .first {
+  .portfolio .Responsive .item01 .box .three_btn .first,
+  .portfolio .Responsive .item02 .box .three_btn .first,
+  .portfolio .mobile_web .item01 .box .three_btn .first,
+  .portfolio .mobile_web .item02 .box .three_btn .first {
     display: block;
   }
-  .portfolio .Responsive .item01 .box .three_btn .first h1, .portfolio .Responsive .item02 .box .three_btn .first h1, .portfolio .mobile_web .item01 .box .three_btn .first h1, .portfolio .mobile_web .item02 .box .three_btn .first h1 {
+  .portfolio .Responsive .item01 .box .three_btn .first h1,
+  .portfolio .Responsive .item02 .box .three_btn .first h1,
+  .portfolio .mobile_web .item01 .box .three_btn .first h1,
+  .portfolio .mobile_web .item02 .box .three_btn .first h1 {
     width: 100%;
     height: 30px;
     margin-bottom: 5px;
     line-height: 30px;
   }
-  .portfolio .Responsive .item01 .btn, .portfolio .Responsive .item02 .btn, .portfolio .mobile_web .item01 .btn, .portfolio .mobile_web .item02 .btn {
+  .portfolio .Responsive .item01 .btn,
+  .portfolio .Responsive .item02 .btn,
+  .portfolio .mobile_web .item01 .btn,
+  .portfolio .mobile_web .item02 .btn {
     width: calc(45% - 5px);
     align-items: center;
   }
-  .portfolio .Responsive .item01 .btn .mobile_QR, .portfolio .Responsive .item02 .btn .mobile_QR, .portfolio .mobile_web .item01 .btn .mobile_QR, .portfolio .mobile_web .item02 .btn .mobile_QR {
+  .portfolio .Responsive .item01 .btn .mobile_QR,
+  .portfolio .Responsive .item02 .btn .mobile_QR,
+  .portfolio .mobile_web .item01 .btn .mobile_QR,
+  .portfolio .mobile_web .item02 .btn .mobile_QR {
     width: 50px;
     height: 50px;
   }
-  .portfolio .Responsive .item02 .box .cont, .portfolio .mobile_web .item02 .box .cont {
+  .portfolio .Responsive .item02 .box .cont,
+  .portfolio .mobile_web .item02 .box .cont {
     width: calc(45% - 5px);
     align-items: center;
   }
-  .portfolio .Responsive .item02 .box .cont .btn, .portfolio .mobile_web .item02 .box .cont .btn {
+  .portfolio .Responsive .item02 .box .cont .btn,
+  .portfolio .mobile_web .item02 .box .cont .btn {
     width: calc(70% - 5px);
   }
   .portfolio .box {
@@ -1068,10 +1100,12 @@
     margin: 0 auto;
     width: 70%;
   }
-  .portfolio .Responsive .item01 .btn, .portfolio .mobile_web .item01 .btn {
+  .portfolio .Responsive .item01 .btn,
+  .portfolio .mobile_web .item01 .btn {
     width: 70%;
   }
-  .portfolio .Responsive .item02 .box .cont, .portfolio .mobile_web .item02 .box .cont {
+  .portfolio .Responsive .item02 .box .cont,
+  .portfolio .mobile_web .item02 .box .cont {
     width: 70%;
   }
   .deco figure {
@@ -1109,16 +1143,19 @@
   .marquee {
     font-size: 30px;
   }
-  .portfolio .item01, .portfolio .item02 {
+  .portfolio .item01,
+  .portfolio .item02 {
     margin: 40px 0;
   }
   .portfolio .box .cont {
     width: 100%;
   }
-  .portfolio .Responsive .item01 .btn, .portfolio .mobile_web .item01 .btn {
+  .portfolio .Responsive .item01 .btn,
+  .portfolio .mobile_web .item01 .btn {
     width: 100%;
   }
-  .portfolio .Responsive .item02 .box .cont, .portfolio .mobile_web .item02 .box .cont {
+  .portfolio .Responsive .item02 .box .cont,
+  .portfolio .mobile_web .item02 .box .cont {
     width: 100%;
   }
   .portfolio .btn {
