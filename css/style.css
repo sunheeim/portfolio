@@ -9,7 +9,7 @@
 }
 
 #wrap {
-  background: url(../img/BG.png) center/cover no-repeat;
+  background: url(../img/BG.png) center/100% no-repeat;
   background-attachment: fixed;
 }
 
