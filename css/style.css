@@ -611,6 +611,12 @@
   font-size: 25px;
   font-family: var(--font-en);
 }
+.contact .inner .resuembtn:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  box-shadow: 0 0 10px 10px white;
+  border: 1px white solid;
+}
 .contact .inner .footer {
   font-size: 1.6rem;
   text-align: center;
